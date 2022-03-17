@@ -7,5 +7,6 @@ function getBrightness(){
     $stmt->execute();
 
     $result = $stmt->fetch();
-    return $result['brightness'];
+    echo $result['brightness'];
 }
+getBrightness();
